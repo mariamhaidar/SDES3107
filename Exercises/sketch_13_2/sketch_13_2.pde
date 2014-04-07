@@ -1,0 +1,12 @@
+size(400,400);
+PFont font;
+            font = loadFont("ACaslonPro-Semibold-48.vlw");
+            textFont(font);
+            line(50, 0, 50, 100);
+            fill(0);
+            textAlign(LEFT);
+            text("Strive not with your superiors in argument", 10, 50);
+            //textAlign(RIGHT);
+            //text("Right", 50, 40);
+            //textAlign(CENTER);
+            //text("Center", 50, 80);
