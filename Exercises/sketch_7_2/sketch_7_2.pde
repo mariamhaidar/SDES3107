@@ -1,0 +1,15 @@
+size(300,300);
+background(500,600,70);
+smooth();
+noFill();
+beginShape();
+ellipse(60,70,80,50);
+rect(200,200,200,200);
+rect(100,100,100,100);
+rect(50,50,50,50);
+vertex(20, 100);
+bezierVertex(60, 0, 100, 0, 50, 55);
+vertex(30, 45);
+vertex(25, 75);
+bezierVertex(50, 70, 75, 90, 80, 70);
+endShape();
